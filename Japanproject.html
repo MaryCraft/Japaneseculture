@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Культура Японии</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a.active {
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="date"],
+        input[type="number"] {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 300px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Главная</a></li>
+                <li><a href="#traditions">Традиции</a></li>
+                <li><a href="#cuisine">Кухня</a></li>
+                <li><a href="#art">Искусство</a></li>
+                <li><a href="https://www.japan.travel/" target="_blank">Внешний сайт</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Добро пожаловать в мир японской культуры!</h1>
+            <p>На этом сайте вы узнаете о традициях, кухне и искусстве Японии.</p>
+        </section>
+
+        <section id="traditions">
+            <h1>Традиции Японии</h1>
+            <h2>Раздел 1: Основные традиции</h2>
+            <ol>
+                <li>Чайная церемония</li>
+                <li>Кимоно</li>
+                <li>Фестивали</li>
+            </ol>
+            <h2>Раздел 2: Праздники</h2>
+            <ul>
+                <li>Сакура (цветение вишни)</li>
+                <li>Обон (праздник памяти предков)</li>
+                <li>Новый год</li>
+            </ul>
+            <h2>Вложенные списки</h2>
+            <ul>
+                <li>Фестивали
+                    <ul>
+                        <li>Гион Мацури</li>
+                        <li>Санья Мацури</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="kimono.jpg" alt="Кимоно" width="100">
+            <a href="large-kimono.jpg" target="_blank">
+                <img src="thumbnail-kimono.jpg" alt="Миниатюра кимоно" width="100">
+            </a>
+            <form action="https://example.com/contact" method="post">
+                <h2>Контактная форма</h2>
+                <input type="text" name="surname" placeholder="Фамилия" required>
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="tel" name="phone" placeholder="Мобильный телефон" required>
+                <input type="email" name="email" placeholder="Электронная почта" required>
+                <input type="date" name="date" required>
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+
+        <section id="cuisine">
+            <h1>Кухня Японии</h1>
+            <h2>Популярные блюда</h2>
+            <ol>
+                <li>Суши</li>
+                <li>Рамен</li>
+                <li>Темпура</li>
+            </ol>
+            <h2>Ингредиенты</h2>
+            <ul>
+                <li>Рис</li>
+                <li>Морепродукты</li>
+                <li>Овощи</li>
+            </ul>
+            <h2>Вложенные списки</h2>
+            <ul>
+                <li>Суши
+                    <ul>
+                        <li>Нигири</li>
+                        <li>Маки</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="sushi.jpg" alt="Суши" width="100">
+            <a href="large-sushi.jpg" target="_blank">
+                <img src="thumbnail-sushi.jpg" alt="Миниатюра суши" width="100">
+            </a>
+            <form action="https://example.com/feedback" method="post">
+                <h2>Форма обратной связи</h2>
+                <input type="text" name="feedback" placeholder="Ваш отзыв" required>
+                <input type="number" name="rating" placeholder="Оценка (1-5)" min="1" max="5" required>
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+
+        <section id="art">
+            <h1>Искусство Японии</h1>
+            <h2>Традиционные искусства</h2>
+            <ol>
+                <li>Каллиграфия</li>
+                <li>Икебана</li>
+                <li>Театр Но</li>
+            </ol>
+            <h2>Современное искусство</h2>
+            <ul>
+                <li>Аниме</li>
+                <li>Манга</li>
+                <li>Современная живопись</li>
+            </ul>
+            <h2>Вложенные списки</h2>
+            <ul>
+                <li>Аниме
+                    <ul>
+                        <li>Сёнэн</li>
+                        <li>Сёдзё</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="calligraphy.jpg" alt="Каллиграфия" width="100">
+            <a href="large-calligraphy.jpg" target="_blank">
+                <img src="thumbnail-calligraphy.jpg" alt="Миниатюра каллиграфии" width="100">
+            </a>
+            <form action="https://example.com/art-feedback" method="post">
+                <h2>Форма обратной связи по искусству</h2>
+                <input type="text" name="art-feedback" placeholder="Ваш отзыв" required>
+                <input type="number" name="art-rating" placeholder="Оценка (1-5)" min="1" max="5" required>
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Культура Японии</p>
+    </footer>
+</body>
+</html>
