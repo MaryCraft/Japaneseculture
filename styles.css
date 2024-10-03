@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #FADBD8;
+    color: #17202A;
     padding: 10px 0;
     text-align: center;
 }
@@ -23,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #17202A;
     text-decoration: none;
 }
 
@@ -43,8 +43,8 @@ main {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background: #FADBD8;
+    color: #17202A;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -59,4 +59,23 @@ table th, table td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: left;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #FADBD8;
+    text-align: center;
+    padding: 10px;
 }
