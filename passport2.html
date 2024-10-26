@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Культура Японии</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Культура Японии</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="art.html" >Искусство</a></li>
+                
+                <li><a href="food.html">Еда</a></li>
+                <li><a href="Traditions.html">Традиции</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="abc.html">Задача 1</a></li>
+                <li><a href="Abc2.html">Задача 2</a></li>
+                <li><a href="passport.html">Паспорт</a></li>
+                <li><a href="passport2.html" class="active">Обработка по событию</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <br>
+
+    <p>ПАСПОРТ ВЫДАН: УФМС РОССИИ ПО ГОРОДУ МОСКВЕ</p>
+    <p>ДАТА ВЫДАЧИ: 15.03.2000</p>
+    <p>СЕРИЯ: 1234</p>
+    <p>НОМЕР: 567-899</p>
+    <p>ФАМИЛИЯ: <span>ВЕРНАЯ</span></p>
+    <p>ИМЯ: <span>МАРИЯ</span></p>
+    <p>ОТЧЕСТВО: <span>АРТЕМОВНА</span></p>
+    <p>ПОЛ: ЖЕН</p>
+    <p>ДАТА РОЖДЕНИЯ: 21.03.2004</p>
+    <p>МЕСТО РОЖДЕНИЯ: Г. МОСКВА</p>
+    <br>
+</body>
+<script>
+    const second_name = document.getElementsByTagName('span')[0]
+
+    function change_sn(){
+        let new_second_name = "VERNAYA"
+        let second_name_node = document.getElementsByTagName('span')[0].innerText = new_second_name
+        console.log(second_name_node)
+    }
+    
+    second_name.addEventListener('click', change_sn)
+
+    const first_name = document.getElementsByTagName('span')[1]
+
+    function change_fn(){
+        let new_first_name = "MARIA"
+    let first_name_node = document.getElementsByTagName('span')[1].innerText = new_first_name
+
+    }
+
+    first_name.addEventListener('click', change_fn)
+
+    const dad_name = document.getElementsByTagName('span')[2]
+
+    function change_dn(){
+        let new_dad_name = "ARTEMOVNA"
+        let dad_name_node = document.getElementsByTagName('span')[2].innerText = new_dad_name
+    }
+
+    dad_name.addEventListener('click', change_dn)
+</script>
+
+<p align="left"><img src="/Users/wo/Desktop/programming test /passport2.png " width="1000" alt="Страница паспорта"></p>
+
+
+    </main>
+
+<footer>
+    <p>&copy; 2024 Культура Японии</p>
+</footer>
+</body>
+</html> 
