@@ -37,6 +37,7 @@ nav ul li a.active {
 }
 
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -72,7 +73,9 @@ body {
 
 main {
     flex: 1;
+    padding: 20px;
 }
+
 
 footer {
     background-color: #FADBD8;
