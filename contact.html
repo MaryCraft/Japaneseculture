@@ -25,45 +25,48 @@
         </nav>
     </header>
     <main>
-        <h2>Контактная форма</h2>
+        <h3>Оставьте свои контактные данные, чтобы получать новости о самых ярких культурных событиях Японии.</h3>
         <form action="https://www.bing.com/search?" method="POST">
-            <label for="name">Имя:</label>
-            <input type="text" id="name" name="name" required>
+           <p> <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required> </p>
             
-            <label for="surname">Фамилия:</label>
-            <input type="text" id="surname" name="surname" required>
+           <p> <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" required> </p>
+
+            <p> <label for="group">Группа:</label>
+            <input type="text" id="group" name="group" required> </p>
             
-            <label for="phone">Мобильный телефон:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <p> <label for="phone">Мобильный телефон:</label>
+            <input type="tel" id="phone" name="phone" required> </p>
             
-            <label for="email">Электронная почта:</label>
-            <input type="email" id="email" name="email" required>
+            <p> <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required> </p>
             
-            <label for="date">Дата отправки:</label>
-            <input type="date" id="date" name="date" required>
+            <p> <label for="date">Дата отправки:</label>
+            <input type="date" id="date" name="date" required> </p>
             
-            <input type="submit" value="Отправить">
+            <p> <input type="submit" value="Отправить"> </p>
         </form>
         
-        <h2>Форма для отзывов</h2>
+        <h3>Пожалуйста, оставьте свой отзыв о материлах на сайте.</h3>
         <form action="https://www.bing.com/search?" method="POST">
-            <label for="feedback">Ваш отзыв:</label>
-            <textarea id="feedback" name="feedback" required></textarea>
+            <p> <label for="feedback">Ваш отзыв:</label>
+            <textarea id="feedback" name="feedback" required></textarea> </p>
             
-            <label for="rating">Оценка:</label>
-            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <p> <label for="rating">Насколько представленная информация была для вас полезна? (1-абсолютно безполезна/5-очень полезна):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required> </p>
             
-            <label>Предпочтения:</label>
+           <p> <label>Какой раздел вы бы хотели видеть на сайте?</label>
             <input type="radio" id="option1" name="preference" value="option1">
-            <label for="option1">Опция 1</label>
+            <label for="option1">Рецепты японских блюд</label>
             <input type="radio" id="option2" name="preference" value="option2">
-            <label for="option2">Опция 2</label>
+            <label for="option2">Японская литература</label></p>
             
-            <label for="subscribe">Подписаться на новости:</label>
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+           <p> <label for="subscribe">Подписаться на новости:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"> </p>
             
-            <input type="hidden" name="source" value="contact_form">
-            <input type="submit" value="Отправить">
+            <p> <input type="hidden" name="source" value="contact_form">
+            <input type="submit" value="Отправить"> </p>
         </form>
     </main>
     <footer>
