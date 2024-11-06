@@ -26,7 +26,8 @@
     </header>
     <main>
         <h3>Оставьте свои контактные данные, чтобы получать новости о самых ярких культурных событиях Японии.</h3>
-        <form action="https://www.bing.com/search?"  id="UserEnter" name="UserEnter" target="_blank"></form>>
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <p>Для поисковика:<input type="hidden"  name="q" value="search"></p>
            <p> <label for="name">Имя:</label>
             <input type="text" id="name" name="name" required> </p>
             
@@ -49,7 +50,8 @@
         </form>
         
         <h3>Пожалуйста, оставьте свой отзыв о материлах на сайте.</h3>
-        <form action="https://www.bing.com/search?" method="POST">
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <p>Для поисковика:<input type="hidden"  name="q" value="search"></p>
             <p> <label for="feedback">Ваш отзыв:</label>
             <textarea id="feedback" name="feedback" required></textarea> </p>
             
